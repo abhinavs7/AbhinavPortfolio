@@ -24,6 +24,7 @@ $("#submit").click(function (event) {
             email: email,
             message: message
         });
+        $("#myModal").modal('show');
     }
     
 
